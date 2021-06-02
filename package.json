@@ -4,6 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\"",
+    "client": "cd client && npm start",
+    "client:build": "cd client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/jnthns/medium-app/issues"
   },
-  "homepage": "https://github.com/jnthns/medium-app#readme"
+  "homepage": "https://github.com/jnthns/medium-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
 }
