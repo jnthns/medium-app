@@ -1,0 +1,19 @@
+{
+  "name": "medium-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnthns/medium-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnthns/medium-app/issues"
+  },
+  "homepage": "https://github.com/jnthns/medium-app#readme"
+}
